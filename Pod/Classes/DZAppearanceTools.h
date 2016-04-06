@@ -8,6 +8,7 @@
 
 #ifndef DZAppearanceTools_h
 #define DZAppearanceTools_h
-
+#import "DZColorUtilities.h"
+#import "DZFontUtilities.h"
 
 #endif /* DZAppearanceTools_h */
