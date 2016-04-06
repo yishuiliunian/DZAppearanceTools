@@ -8,8 +8,8 @@
 
 #import <Foundation/Foundation.h>
 #import <HexColors.h>
-#define LTExternColor(name) FOUNDATION_EXTERN UIColor* LTColor##name ();
-#define LTColorDefine(name , hex, a) UIColor* LTColor##name()\
+#define DZExternColor(name) FOUNDATION_EXTERN UIColor* DZColor##name ();
+#define DZColorDefine(name , hex, a) UIColor* DZColor##name()\
 {\
 static UIColor* pinkColor = nil;\
 static dispatch_once_t onceToken;\
