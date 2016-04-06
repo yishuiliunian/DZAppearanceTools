@@ -4,7 +4,7 @@
 [![Version](https://img.shields.io/cocoapods/v/DZAppearanceTools.svg?style=flat)](http://cocoapods.org/pods/DZAppearanceTools)
 [![License](https://img.shields.io/cocoapods/l/DZAppearanceTools.svg?style=flat)](http://cocoapods.org/pods/DZAppearanceTools)
 [![Platform](https://img.shields.io/cocoapods/p/DZAppearanceTools.svg?style=flat)](http://cocoapods.org/pods/DZAppearanceTools)
-
+x
 ## Usage
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
