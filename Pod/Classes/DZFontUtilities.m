@@ -8,6 +8,3 @@
 
 #import "DZFontUtilities.h"
 
-@implementation DZFontUtilities
-
-@end
