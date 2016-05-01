@@ -18,3 +18,13 @@ font = [UIFont systemFontOfSize:size];\
 });\
 return font;\
 }
+
+
+#define IMP_SYSTEM_BOLD_FONT(name, size) UIFont* DZFont##name() {\
+static UIFont* font = nil;\
+static dispatch_once_t onceToken;\
+dispatch_once(&onceToken, ^{\
+font = [UIFont boldSystemFontOfSize:size];\
+});\
+return font;\
+}

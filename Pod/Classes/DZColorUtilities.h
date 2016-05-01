@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "HexColors.h"
+#import <HexColors/HexColors.h>
 #define DZExternColor(name) FOUNDATION_EXTERN UIColor* DZColor##name ();
 #define DZColorDefine(name , hex, a) UIColor* DZColor##name()\
 {\
