@@ -7,14 +7,14 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <HexColors/HexColors.h>
+#import <Chameleon.h>
 #define DZExternColor(name) FOUNDATION_EXTERN UIColor* DZColor##name ();
 #define DZColorDefine(name , hex, a) UIColor* DZColor##name()\
 {\
 static UIColor* pinkColor = nil;\
 static dispatch_once_t onceToken;\
 dispatch_once(&onceToken, ^{\
-pinkColor = [UIColor hx_colorWithHexString:@""#hex alpha:a];\
+pinkColor = [UIColor colorWithHexString:@""#hex withAlpha:a];\
 });\
 return pinkColor;\
 }
